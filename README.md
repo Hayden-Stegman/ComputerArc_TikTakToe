@@ -24,4 +24,7 @@ With the inital setup we moved on to doing light planning for how we wanted out 
 Printing the Board
 One of the first challenges we encountered was figuring out how we would print the board to the console.
 Our first idea was to attempt to have a function in C++ that MASM could pass a string to that would output the board to the console using cout statements.
-This would occur after 
+This would occur after each player makes a move, and at the start of a round to display the current moves that have been made along with each position a player can
+decide to play.
+
+The biggest issue with this we have encountered so far is attempting to call the command in C++ as well as passing this string.
