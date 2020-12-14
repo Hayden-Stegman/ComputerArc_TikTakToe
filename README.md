@@ -1,12 +1,10 @@
 # Technical Report for TikTakToe in MASM x64
+## About
+Our Computer Arcitecture Final Project was the age old game of Tik Tak Toe written in MASM x64. 
+This would be a fully functional game running in the command line where two players can go head to head and play as many times as they want. 
+The game will keep track of how many wins each player has as well as how many ties.
+
 Authors: Hayden Stegman & Zachary Jones
-
-## Initial Setup!
-The first thing we attempted to do was simply follow Appendix E and get a simple project set up that would allow up to run both MASM x64 along with C++ in a single project.
-This was an easy first task that we were able to get out of the way very quickly.
-Next we created a GitHub Repo and made sure that everything was working and that collaborating would be easy and effient.
-
-With the inital setup we moved on to doing light planning for how we wanted out system to run. This was a simple talk through of everything we wanted to game to.
 
 ## Goals:
 1. Tik Tak Toe functionality in the command line.
@@ -18,10 +16,19 @@ With the inital setup we moved on to doing light planning for how we wanted out 
     - End Game
 3. Be able to play multiple games in one run.
 4. Win Counter
+5. Play Against an AI (Stretch Goal)
+
+## Initial Setup!
+The first thing we attempted to do was simply follow Appendix E and get a simple project set up that would allow up to run both MASM x64 along with C++ in a single project.
+This was an easy first task that we were able to get out of the way very quickly.
+Next we created a GitHub Repo and made sure that everything was working and that collaborating would be easy and effient.
+
+With the inital setup we moved on to doing light planning for how we wanted out system to run. This was a simple talk through of everything we wanted to game to.
 
 ## Challenges:
 
-Printing the Board
+### Printing the Board
+
 One of the first challenges we encountered was figuring out how we would print the board to the console.
 Our first idea was to attempt to have a function in C++ that MASM could pass a string to that would output the board to the console using cout statements.
 This would occur after each player makes a move, and at the start of a round to display the current moves that have been made along with each position a player can
