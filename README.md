@@ -28,3 +28,6 @@ This would occur after each player makes a move, and at the start of a round to 
 decide to play.
 
 The biggest issue with this we have encountered so far is attempting to call the command in C++ as well as passing this string.
+After some playing with the issue we eventually resolved realizing that we forgot to add the Extern "C" void *FunctionName* to the top of our .cpp file.
+As well, we opted to switch from passing a string to instead passing the array that stores board postitons so that way we dont have to construct the string is MASM
+while also allowing the C++ function to be better defined.
