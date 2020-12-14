@@ -26,7 +26,6 @@ Next, we created a GitHub Repo and made sure that everything was working and tha
 With the initial setup, we moved on to doing light planning for how we wanted our system to run. This was a simple talk through of everything we wanted the game to do.
 
 ## Challenges:
-
 ### Printing the Board
 One of the first challenges we encountered was figuring out how we would print the board to the console.
 Our first idea was to attempt to have a function in C++ that MASM could pass a string that would output the board to the console using cout statements.
