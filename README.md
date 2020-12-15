@@ -1,4 +1,4 @@
-# Technical Report for Tic Tak Toe in MASM x32
+# Technical Report for Tic Tac Toe in MASM x32
 By Hayden Stegman & Zachary Jones
 
 ## About
@@ -49,5 +49,6 @@ MASM would direct game flow.
 ### Game Flow
 With that, another major challenge we faced was figuring the way the game would flow through all of its states that would allow it to function properly as well as the supporting functions needed. This was more of a preliminary challenge rather than one that happened when coding as we ran into it while drawing out how we wanted this program to function and flow. Ultimately we overcame it by drawing out the program and checking the flow visually. This was also made easier once we had settled on the idea of using MASM for game flow and C++ for input and output.
 
-### Stack Allignment / Function Memory Allocation
+### Player Turns
+Another challenged faced while working on the game was figuring out the specifics of how we wanted to store what players turn it was. Our initial idea was to have a jump point in MASM that you could jump to named "SwitchPlayer". This would allow 
 
