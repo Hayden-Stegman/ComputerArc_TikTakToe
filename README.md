@@ -42,8 +42,10 @@ However issues persisted and eventually we were forced to switch to a more C++ h
 This new approach worked by assigning more specific roles to what would be handeled in c++ and what would be handeld in Masm.
 The decision was as follows.
 C++ would handle all things that were pertaining to printing to the console, as well as recieving user input.
-MASM would direct game flow and control game logic (IE: Win conditions)  
+MASM would direct game flow.  
 
 ### Game Flow
-Another major challenge we faced was figuring the way the game would flow through all of its states that would allow it to function properly as well as the supporting functions needed. This was more of a preliminary challenge rather than one that happened when coding as we ran into it while drawing out how we wanted this program to function and flow. Ultimately we overcame it by drawing out the program and checking the flow visually. 
+With that, another major challenge we faced was figuring the way the game would flow through all of its states that would allow it to function properly as well as the supporting functions needed. This was more of a preliminary challenge rather than one that happened when coding as we ran into it while drawing out how we wanted this program to function and flow. Ultimately we overcame it by drawing out the program and checking the flow visually. This was also made easier once we had settled on the idea of using MASM for game flow and C++ for input and output.
+
+### Stack Allignment / Function Memory Allocation
 
