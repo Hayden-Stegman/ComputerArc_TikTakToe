@@ -1,10 +1,12 @@
 # Technical Report for TikTakToe in MASM x32
+By Hayden Stegman & Zachary Jones
+
 ## About
 Our Computer Architecture Final Project was the age-old game of Tik Tak Toe written in MASM x32. 
 This would be a fully functional game running in the command line where two players can go head to head and play as many times as they want. 
 The game will keep track of how many wins each player has as well as how many ties.
 
-Authors: Hayden Stegman & Zachary Jones
+The reason we decided to do this project was largely motivated by our original intent on using an Arduino Uno board to program a physical version of the game featuring buttons and lights to represent the X's and O's. However, as with many things in this project we had to change these plans due to Corona Virus sending everyone home after thanksgiving break. Due to us no longer being in the same physical location we decided to do a version that runs in the command line while adding a few features such as the score counter.
 
 ## Goals:
 1. Tik Tak Toe functionality in the command line.
