@@ -1,4 +1,4 @@
-# Technical Report for TikTakToe in MASM x32
+# Technical Report for Tic Tak Toe in MASM x32
 By Hayden Stegman & Zachary Jones
 
 ## About
